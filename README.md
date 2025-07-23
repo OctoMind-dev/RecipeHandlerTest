@@ -44,3 +44,6 @@ Firebase offers the possibility to deploy preview versions on separate preview c
 ### from the local machine
 
 export VERSION=$(git rev-parse --short HEAD) && npm run build && firebase deploy --only hosting --message $VERSION
+
+### Changes
+Change 1
